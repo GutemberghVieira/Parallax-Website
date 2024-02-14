@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Está com dúvidas sobre como deslanchar o seu projeto? este site tem soluções para o seu problema aqui você ira navegar e ver informações sobre mim, serviços de desenvolvimento web e se você for um recrutador pode entrar e analisar os meus projetos quero seguir carreira como Desenvolvedor Full-stack. 
+Fique a vontade, Sinta-se em casa!">
+<meta name="robots" content="noindex, nofollow">
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<title>WebSite: Parallax</title>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+box-sizing:border-box;
+margin:0;
+padding:0;
+font-family:"Roboto", sans-serif;
+}
+
+html{
+scroll-behavior:smooth;
+}
+
+::-webkit-scrollbar{
+background-color:#f1f9ff;
+width:10px;
+}
+
+::-webkit-scrollbar-thumb{
+background:linear-gradient(76deg, #3a3939, #181717);
+border-radius:10px;
+}
+
+body{
+height:100%;
+width:100%;
+}
+
+.Header-Nav{
+background:#111 url(assets/polygon-Wallpaper.jpg) no-repeat;
+background-size:contain;
+background-size:100% 100%;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background-attachment:fixed;
+flex-direction:column
+}
+
+div{
+padding:15px 0;
+}
+
+.Contratar,.Main-section-me,.Services{
+background:#252e33;
+}
+
+.Navigation ul {
+list-style:none;
+display:flex;
+padding:12px;
+}
+
+.Navigation ul li{
+margin:0 10px;
+}
+
+.Navigation ul li a{
+color:#252e33;  
+text-decoration:none;
+background:#fffbf8;
+box-shadow:3px 3px 3px rgb(255, 249, 244);
+border-radius:3px; 
+font-weight:bold; 
+padding:12px;
+}
+
+.Navigation ul li a:hover{
+color:#fdf5ef;
+background-color:#252e33;
+transition:.3s ease-in;
+}
+
+h1 ,h2, h3{
+color:#fff;
+text-align:center;
+margin: 10px 0 15px 0;
+}
+
+p{
+color:#fff;
+line-height:25px;
+text-align:center;
+width:50%;
+margin:10px auto;
+}
+
+.Sections-parallax{
+width:100%;
+min-height:350px;
+background-color:#111;
+background-size:contain;
+background-size:100% 100%;
+background-attachment:fixed;
+background-repeat:no-repeat;
+}
+
+.Sections-parallax-viewport{
+height:100vh;
+background-image:url(assets/Design-2.jpg);
+background-repeat:no-repeat;
+background-size:cover;
+display:flex;
+align-items:center;
+background-attachment:fixed;
+}
+
+.design-1{
+background-image:url(assets/Design-1.jpg);
+}
+
+.design-2{
+background-image:url(assets/Design-2.jpg);
+}
+
+.Link{
+color:#ffeee2;
+background-color:#444444;
+padding:10px;
+margin:10px 0 0 0;
+text-decoration:none;
+display:inline-block;
+box-shadow:2px 3px 2px #444444;
+}
+
+.Link:hover{
+color:#444444;
+background:#ffeee2;
+transition:.3s ease-in;
+}
+
+.hallowen-group{
+width:100%;
+display:flex;
+justify-content: center;
+align-items:center;
+}
+
+.hallowen-group .hallowen{
+background:#171A1C no-repeat;
+background-image:url(assets/Panda-Girl.png);
+background-size:contain;
+background-position:bottom;
+width:100%;
+height:160px;
+border-radius:50%;
+border-right:10px solid #fff9f5;
+border-bottom:10px solid #f8f4f1;
+border-top:10px solid #111;
+border-left:10px solid #111;
+padding:10px;
+top:10%;
+margin:0 15px;
+}
+
+.Name{
+border-bottom:2px solid #fff;
+padding:10px 0;
+}
+
+@media(max-width:768px){
+
+.hallowen{
+width:50%;
+height:50%;
+top:2%;
+}
+
+
+.Navigation ul {
+display:block;
+text-align:center;
+height:350px;
+}
+
+.Navigation ul li{
+margin:45px 0;
+}
+
+.Navigation ul li a{
+width:100%;
+display:inline-block
+}
+
+}
+
+</style>
+
+</head>
+<body>
+ 
+
+<div class="Header-Nav">
+
+<div class="hallowen-group">  
+
+<div>      
+<div class="hallowen"></div>
+ 
+<h2 class="Name">Gutembergh Vieira</h2>   
+</div>
+
+</div>
+
+<nav class="Navigation">
+<ul>
+<li>    
+<a href="#Apresentação">Apresentação</a>
+</li>
+
+<li>
+<a href="#Servicos">Serviços</a>
+</li>
+
+<li>
+<a href="#Contratar">Contratar</a>    
+</li>
+
+<li>
+<a href="Projetos.html">Projetos</a>    
+</li>
+</ul> 
+
+</nav>
+
+</div>
+
+
+<div class="Main-section-me" id="Apresentação">
+<h1>Apresentação</h1>   
+<h2>Olá seja muito bem vindo</h2>
+<p>Meu nome é Gutembergh e eu faço projetos desenvolvidos com a linguagem de marcação HTML e a linguagem de Estilização css.</p>
+<p>O objetivo desse site é proporcionar uma navegação mais confortável e prestar a você os meus serviços.</p> 
+<p>Abaixo você vai poder ver quais são serviços, os preços cobrados pelo site e o porque contratar os meus serviços</p>
+</div>
+
+<div class="Sections-parallax design-1"></div>
+
+<div class="Services" id="Servicos">
+<h1>Serviços</h1>
+<p>Bom com você já sabe os projetos são desenvolvidos com html e css,  com isso em mente eu consigo desenvolver sites para empresas, layouts de uma página, site para mercados e se preferir um portfólio pessoal</p>
+</div>
+
+<div class="Sections-parallax design-2"></div>
+
+<div class="Contratar" id="Contratar">
+<h3>Porque contratar os meus serviços?</h3>   
+<p>Eu sou estudante de programação e a cada dia vou adquirindo um conhecimento vasto e amplo sobre cada linguagem, sempre desenvolvendo muitos projetos através disso, minha mente vai se acostumando no mundo real.</p>
+<p>Então para dar mais enfase na minha carreira, quero seguir novos desafios.</p>
+</div>
+
+<div class="Sections-parallax-viewport design-3">
+
+<p>
+<a href="https://web.whatsapp.com/" target="_blank" class="Link">Entrar em contato</a>
+</p>
+    
+</div>
+
+</body>
+</html>
