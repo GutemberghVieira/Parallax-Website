@@ -27,7 +27,7 @@ width:100%;
 }
 
 .Header-Nav{
-background:#111 url(assets/polygon-Wallpaper.jpg) no-repeat;
+background:#111 url(../assets/polygon-Wallpaper.jpg) no-repeat;
 background-size:contain;
 background-size:100% 100%;
 height:100vh;
@@ -98,7 +98,7 @@ background-repeat:no-repeat;
 
 .Sections-parallax-viewport{
 height:100vh;
-background-image:url(assets/Design-2.jpg);
+background-image:url(../assets/Design-2.jpg);
 background-repeat:no-repeat;
 background-size:cover;
 display:flex;
@@ -107,11 +107,11 @@ background-attachment:fixed;
 }
 
 .design-1{
-background-image:url(assets/Design-1.jpg);
+background-image:url(../assets/Design-1.jpg);
 }
 
 .design-2{
-background-image:url(assets/Design-2.jpg);
+background-image:url(../assets/Design-2.jpg);
 }
 
 .Link{
@@ -139,7 +139,7 @@ align-items:center;
 
 .hallowen-group .hallowen{
 background:#171A1C no-repeat;
-background-image:url(assets/Panda-Girl.png);
+background-image:url(../assets/Panda-Girl.png);
 background-size:contain;
 background-position:bottom;
 width:100%;
@@ -161,12 +161,15 @@ padding:10px 0;
 
 @media(max-width:768px){
 
+.Header-Nav{
+height:100%;
+}   
+
 .hallowen{
 width:50%;
 height:50%;
 top:2%;
 }
-
 
 .Navigation ul {
 display:block;
